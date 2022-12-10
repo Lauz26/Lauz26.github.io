@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    font-family: monospace;
+    display: flex;
+    background: #000;
+    color: azure; 
+    margin: auto;
+    font-style: italic;
+}
+
+.listas{
+    margin: auto;
+}
+
+ul{
+    list-style:disc;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 3.2em;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /*text-decoration:line-through; Tachado*/
+    text-decoration: underline;
+    text-shadow: 0px 0px 100px rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 2.2em;
+    padding: 10px;
+    text-shadow: 0px 0px 80px  rgb(255, 255, 255);
+}
+
+li{
+    font-size: 1.5em;
+    padding: 5px;
+    
+}
+
+img{
+    height: 20px;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+/*Prueba tachado
+.o1{
+    text-decoration: line-through;
+}
+*/
+/*tachado de lo que ya esta hecho*/
